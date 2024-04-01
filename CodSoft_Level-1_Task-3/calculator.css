@@ -1,0 +1,60 @@
+.calculate{
+margin-left: 37%;
+height:490px;width:330px;
+background-color: rgb(84, 58, 2);
+border-radius: 3%;
+background-image: linear-gradient(125deg, rgb(84, 58, 2),rgb(146, 103, 9),rgb(110, 76, 3));
+}
+#black{
+    margin-left: 0.8%;
+    height:100px;width:311px;
+    border-radius: 5%;
+    background-color: black;
+    position: absolute;
+margin-top: 1.5%;
+opacity: 0.9;
+}
+#display{
+    position: absolute;
+    height:85px;
+    width:285px;
+    border-radius: 3%;
+    background-color: rgb(132, 146, 135);
+    margin-left: 3.9%;
+    margin-top: 2%;
+    opacity: 0.5;
+    background-image: linear-gradient(70deg, rgb(85, 92, 84),rgb(132, 146, 135),rgb(100, 109, 103));
+}
+#number{
+   width:300px;
+    margin-left: 4.4%;
+    padding-top: 40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 8px; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 8px;
+}
+ .b741,.b852,.b963,.zero,.clear{ 
+height:55px;
+background-image: linear-gradient(to right, rgb(154, 152, 152),white,grey);
+border-radius: 10%;
+
+}
+.b741:active,.b852:active,.b963:active,.zero:active,.clear:active{
+background-image:rgb(126, 120, 120);
+}
+input{
+    background-color: transparent;
+    height:auto;width: 270px;
+color: black;
+font-size: 30px;
+border: none;
+font-family: monospace;font-weight: bold;
+}
+body{
+    background-color: black;
+}
+#b{
+    font-size:large ;
+}
